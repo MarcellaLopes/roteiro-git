@@ -9,7 +9,11 @@ def main():
     print(valores)
 
     plt.plot(valores)
+    plt.ylabel('Valores de entrada')
+    plt.xlabel('Amostragem')
+    plt.title('Gráfico de linhas')
     plt.show()
+    
  
 main()
 
